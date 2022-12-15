@@ -78,7 +78,7 @@ h6 {
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
-  background: #fcfcff;
+  background: #ffffff;
   font-size: 14px;
   padding: 0;
   color: rgba(255, 255, 255, 0.8);
@@ -87,13 +87,13 @@ h6 {
 
 #topbar .contact-info i {
   font-style: normal;
-  color: #3d3eA0;
+  color: #3D3EA6;
 }
 
 #topbar .contact-info i a,
 #topbar .contact-info i span {
   padding-left: 5px;
-  color: #3d3ea0;
+  color: rgb(0, 0, 0);
 }
 
 #topbar .contact-info i a {
@@ -102,11 +102,11 @@ h6 {
 }
 
 #topbar .contact-info i a:hover {
-  color: #e21010;
+  color: #3D3EA6;
 }
 
 #topbar .cta a {
-  color: #fff;
+  color: rgb(0, 0, 0);
   background: #3D3EA6;
   padding: 10px 20px;
   display: inline-block;
@@ -401,8 +401,8 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 100vh;
-  background: url("../img/Hero_bg_Final.png") center center;
+  height: 75vh;
+  background: url("../img/hero_city8.jpg") center center;
   background-size: cover;
   position: relative;
   z-index: 1;
@@ -469,17 +469,14 @@ h6 {
 
 #hero_s {
   width: 100%;
-  height: 95.8vh;
+  height: 96vh;
   /*--background-color: #3D3EA6; --*/
-  background: url("../img/hero_city5.png") center center;
+  background: url("../img/hero_city8.jpg") center center;
   background-size: cover;
   position: relative;
   z-index: 1;
   padding: 0;
 }
-
-
-
 
 .container_s .info-box-s {
   color: #ffffff;
